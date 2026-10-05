@@ -39,7 +39,7 @@ Both update automatically every 10 seconds, so changes made directly on the matr
 This matrix's embedded web server is fairly minimal and has a few non-standard behaviors this integration works around:
 
 - Every hardware command must end with a literal `\r\n`, or the device hangs and resets the connection without responding.
-- The login endpoint returns a bare `200 OK` with no headers or body at all — technically non-compliant HTTP that some HTTP clients (including `aiohttp`, which Home Assistant uses) can fail to parse. This is expected and handled.
+- The login endpoint returns a bare `200 OK` with no headers or body at all. 
 - There's no session cookie or token; each batch of commands opens a fresh connection and logs in immediately before use.
 - This firmware has no live "signal present" / "HPD" status command for outputs — only `GET EDID_R hdmioutN`, which reflects whether a display has ever completed an EDID handshake on that port (cached), not whether it's currently powered on.
 
