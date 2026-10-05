@@ -1,0 +1,21 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect to AV Access 4KMX44-H2",
+        "data": {
+          "host": "Host (IP address)",
+          "username": "Username",
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect or log in. Check the IP address and credentials.",
+      "unknown": "Unexpected error."
+    },
+    "abort": {
+      "already_configured": "This matrix is already configured."
+    }
+  }
+}
