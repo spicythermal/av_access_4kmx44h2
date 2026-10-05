@@ -2,10 +2,10 @@
   "domain": "av_access_4kmx44h2",
   "name": "AV Access 4KMX44-H2",
   "version": "0.1.0",
-  "documentation": "https://www.avaccess.com",
-  "issue_tracker": "https://www.avaccess.com",
-  "codeowners": [],
-  "requirements": [],
+  "documentation": "https://github.com/spicythermal/av_access_4kmx44h2/blob/main/README.md",
+  "issue_tracker": "https://github.com/spicythermal/av_access_4kmx44h2/issues",
+  "codeowners": ["spicythermal"],
+  "requirements": ["homeassistant"],
   "iot_class": "local_polling",
   "config_flow": true
 }
